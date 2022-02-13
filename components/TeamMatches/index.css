@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.team-matches-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.align-team-card-loader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-color-mi {
+  background-image: linear-gradient(#13418b, #0f172a);
+}
+
+.background-color-rcb {
+  background-image: linear-gradient(#d91c1f, #0f172a);
+}
+
+.background-color-csk {
+  background-image: linear-gradient(#f7db00, #0f172a);
+}
+
+.background-color-dc {
+  background-image: linear-gradient(#4f5db0, #0f172a);
+}
+
+.background-color-pk {
+  background-image: linear-gradient(#a4261d, #0f172a);
+}
+
+.background-color-srh {
+  background-image: linear-gradient(#f26d22, #0f172a);
+}
+
+.background-color-rr {
+  background-image: linear-gradient(#da237b, #13418b);
+}
+
+.background-color-kkr {
+  background-image: linear-gradient(#5755a7, #13418b);
+}
+
+.match-card-container {
+  height: 800px;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+@media all and (max-width: 567px) {
+  .match-card-container {
+    height: 800px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+}

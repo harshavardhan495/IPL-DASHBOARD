@@ -1,0 +1,59 @@
+.match-display-card {
+  width: 20%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #1e293b;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+
+.match-card-icon {
+  height: 80px;
+  width: 80px;
+}
+
+.mini-heading {
+  font-size: 18px;
+  color: white;
+  font-family: 'Bree Serif';
+}
+
+.sub-heading-values {
+  font-size: 13px;
+  color: white;
+  font-family: 'Bree Serif';
+}
+
+.lost-match-status {
+  font-size: 17px;
+  color: red;
+  font-family: 'Bree Serif';
+  margin-top: auto;
+}
+
+.won-match-status {
+  font-size: 17px;
+  color: green;
+  font-family: 'Bree Serif';
+  margin-top: auto;
+}
+
+@media all and (max-width: 567px) {
+  .match-display-card {
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1e293b;
+    border-width: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4px;
+    text-align: center;
+  }
+}
